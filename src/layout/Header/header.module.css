@@ -1,0 +1,78 @@
+.divHeader{
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+nav ul li{
+    list-style: none;
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.iconBild{
+    width: 70px;
+    height: 70px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+
+@media  screen and (max-width: 1200px) {
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .iconBild{
+        width: 50px;
+        height: 50px;
+    }
+    nav{
+        gap: 50px;
+    }
+    nav ul li{
+        font-size: 12px;
+    }
+} 
+
+@media  screen and (min-width: 1201px) and (max-width: 1400px) {
+    nav{
+        gap: 100px;
+    }
+    nav ul li{
+        font-size: 17px;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    nav{
+        gap: 20px;
+    }
+    nav ul li{
+        font-size: 10px;
+    }
+    .logo{
+        width: 45px;
+        height: 45px;
+    }
+    .iconBild{
+        width: 45px;
+        height: 45px;
+    }
+}

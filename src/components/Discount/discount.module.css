@@ -1,0 +1,54 @@
+
+.divDiscount{
+    max-width: 100%;
+    height: 600px;
+}
+ 
+.h1Amazing{
+     color: #FFF;
+     font-family: Montserrat;
+     font-size: 86px;
+     font-style: normal;
+     font-weight: 700;
+     max-width: 70%; 
+     padding-left: 40px;
+     padding-top: 80px;
+}
+ 
+
+.greenButton{
+    background-color: #393;
+    display: flex;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    margin-left: 40px;
+}
+
+@media  screen and (max-width: 1250px) {
+     .h1Amazing{
+        font-size: 60px;
+     }    
+}
+
+@media  screen and (max-width: 800px) {
+    .h1Amazing{
+       font-size: 45px;
+    }   
+}
+
+@media  screen and (max-width: 500px) {
+    .h1Amazing{
+       font-size: 30px;
+    }   
+}
+

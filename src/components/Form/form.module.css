@@ -1,0 +1,173 @@
+.greenDiv{
+    background: #0B710B;
+    border-radius: 20px;
+    width: 93%;
+    height: 486px;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+form{
+    display: flex;
+}
+
+.fiveHands{
+    width: 948px;
+    height: 331px;
+}
+
+.divInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    padding: auto 40px;
+}
+
+input{
+    border-radius: 6px;
+    padding: 16px 32px;
+    width: 450px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    background: transparent;
+}
+
+input::-moz-placeholder {
+    color: #FFF;
+}
+
+.whiteButton{
+    color: #282828;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    width: 516px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #FFF;
+    border: none;
+    margin-top: 20px;
+}
+
+@media  screen and (max-width: 650px) {
+    h2{
+        font-size: 30px;
+    }
+    .greenDiv{
+        width: 78%;
+    }
+    .fiveHands{
+        display: none;
+    }
+    .divInputs{
+        width: 40%;
+        margin-left: 130px;
+    }
+    input{
+        width: 300px;
+    }
+    .whiteButton{
+        width: 370px;
+    }
+}
+
+@media  screen and (min-width: 791px) and (max-width: 900px) {
+    h2{
+        font-size: 40px;
+    }
+    .greenDiv{
+        width: 88%;
+    }
+    .fiveHands{
+        display: none;
+    }
+    .divInputs{
+        width: 50%;
+        margin-left: 195px;
+    }
+    input{
+        width: 400px;
+    }
+    .whiteButton{
+        width: 470px;
+    }
+}
+
+@media  screen and (min-width: 651px) and (max-width: 790px) {
+    h2{
+        font-size: 30px;
+    }
+    .greenDiv{
+        width: 85%;
+    }
+    .fiveHands{
+        display: none;
+    }
+    .divInputs{
+        width: 40%;
+        margin-left: 175px;
+    }
+    input{
+        width: 300px;
+    }
+    .whiteButton{
+        width: 370px;
+    }
+}
+
+@media  screen and (min-width: 901px) and (max-width: 1200px) {
+    .fiveHands{
+        width: 40%;
+    }
+    form{
+        gap: 50px;
+    }
+    input{
+        width: 350px;
+    }
+    .whiteButton{
+        width: 420px;
+    }
+    .greenDiv{
+        width: 88%;
+    }
+}
+
+@media  screen and (min-width: 1201px) and (max-width: 1350px) {
+    .fiveHands{
+        width: 45%;
+    }
+    form{
+        gap: 50px;
+    }
+    input{
+        width: 400px;
+    }
+    .whiteButton{
+        width: 470px;
+    }
+    .greenDiv{
+        width: 88%;
+    }
+}
